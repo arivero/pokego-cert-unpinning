@@ -15,4 +15,3 @@ adb install modified_pgo.apk
 
 once the app is installed, make sure it is set up to use mitmproxy (use google if you don't know how)
 then run mitmdump --host -s script.py and launch the app
-I made this with python 2. If you have python 3 it will probably give you a syntax error. I'll fix this later, much like the rest of the problems
