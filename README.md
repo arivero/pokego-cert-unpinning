@@ -2,6 +2,9 @@
 Niantic implemented certificate pinning. To that we say good job, but unfortunately cert pinning makes our jobs harder. Introducing the pokemon go certificate unpinned app! Almost up to date, with other mild improvements for devs! 
 That said, do not use this app unless you want to risk getting banned, do not use this unless you are using the script included in this repository (or a script that does what this does), or are looking to actually play the game.
 
+THIS HAS ONLY BEEN TESTED WITH GOOGLE ACCOUNTS
+It will probably not work for PTC accounts
+
 # Changes made to the app: 
 Set the debuggable flag to true in the android manifest 
 Disabled all certificate checking by making the NianticTrustManager return null for the relevant functions
