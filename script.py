@@ -15,4 +15,5 @@ def request(context, flow):
     flow.request.content="&".join(a)
  except Exception:
   traceback.print_exc()
-
+def start(context, argv):
+ print("Script loaded")
