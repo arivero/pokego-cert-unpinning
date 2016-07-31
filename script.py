@@ -13,6 +13,6 @@ def request(context, flow):
      if "callerSig" in a[i]:
       a[i]="callerSig="+"321187995bc7cdc2b5fc91b11a96e2baa8602c62"
     flow.request.content="&".join(a)
- except Exception, e:
+ except Exception:
   traceback.print_exc()
 
